@@ -28,7 +28,7 @@ export function evaluateFunction(
  */
 export function calculateLimit(
   expression: string,
-  variable: string,
+  _variable: string,
   targetValue: number,
   path: 'x' | 'y' | 'diagonal' | 'parabolic' = 'x'
 ): { values: Array<{ t: number; value: number }>; limit: number | null } {

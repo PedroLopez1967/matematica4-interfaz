@@ -164,7 +164,7 @@ export const problems: Problem[] = [
     scenario: 'derivative-lab',
     statement: 'Verifica si f(x,y) = e^(x*y) satisface la ecuación x*∂f/∂x = y*∂f/∂y',
     functionExpression: 'e^(x*y)',
-    correctAnswer: true,
+    correctAnswer: 'sí',
     hints: [
       {
         id: 'deriv-3-h1',
